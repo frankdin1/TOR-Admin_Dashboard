@@ -1,10 +1,10 @@
 :root {
-    --height: 100%;
+    --main-height: 200vh;
 }
 
 #full-dashboard {
     width: 100%;
-    /* height: 400vh; */
+    height: var(--main-height);
     margin: 0 auto;
     display: grid;
     gap: 1px;
@@ -22,7 +22,7 @@
 }
 
 #main {
-    height: 280vh;
+    height: calc(var(--main-height) - 5px);
     display: grid;
     background-color: antiquewhite;
     grid-template-columns: 1fr;
@@ -30,13 +30,14 @@
 }
 
 #main-heading {
-    height: 40vh;
+    height: calc(var(--main-height) / 7);
 }
 
 #main-body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     background-color: goldenrod;
+    height: calc(var(--main-height) - calc(var(--main-height) / 7) - 15px);
 }
 
 #news {
@@ -49,5 +50,11 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr 1fr;
-    height: 236vh;
+    height: calc(var(--main-height) - calc(var(--main-height) / 7) - 20px);
+}
+
+.project {
+    border: 1px black solid;
+    padding: 2px;
+    background-color: brown;
 }
