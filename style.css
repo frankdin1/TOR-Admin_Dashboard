@@ -130,3 +130,7 @@
 .preview-text {
     margin-top: -16px;
 }
+
+hr.solid {
+    border-top: 1px solid gray;
+}
