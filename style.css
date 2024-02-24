@@ -1,6 +1,6 @@
 :root {
     --body-width: 70%;
-    --body-height: 58rem;
+    --body-height: 60rem;
 }
 
 body {
@@ -28,13 +28,60 @@ body {
 
 #main-heading {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
 #search {
     display: grid;
     grid-template-rows: 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr;
     align-items: center;
+    justify-items: center;
+}
+
+form {
+    display: grid;
+    width: 70%;
+}
+
+input {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#username-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#bell-icon,
+#logo,
+#username {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#greeting {
+    display: grid;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#new,
+#upload,
+#share {
+    padding: 10px;
+    border-radius: 25px;
+    width: calc(var(--body-width));
 }
