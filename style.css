@@ -1,6 +1,6 @@
 :root {
-    --body-width: 1500px;
-    --body-height: 1000px;
+    --body-width: 70%;
+    --body-height: 58rem;
 }
 
 body {
@@ -10,5 +10,31 @@ body {
     background-color: aqua;
     border: 1px solid black;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
+}
+
+.block {
+    border: 1px solid green;
+}
+
+#sidebar {
+    background-color: blue;
+}
+
+#main {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+#main-heading {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#search {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
 }
