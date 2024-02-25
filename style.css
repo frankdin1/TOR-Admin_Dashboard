@@ -5,10 +5,10 @@
 
 body {
     width: var(--body-width);
-    height: var(--body-height);
+    /* height: var(--body-height); */
     margin: 0 auto;
     background-color: aqua;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
@@ -117,20 +117,12 @@ input {
     grid-template-rows: 65% 35%;
 }
 
-.project-text {
+.preview {
     padding-left: 10px;
 }
 
-.project-text h4 {
+.preview h4 {
     margin-bottom: 0px;
-}
-
-.project-title {
-    margin-bottom: -2px;
-}
-
-.project-summary {
-    margin-top: -2px;
 }
 
 .news {
