@@ -6,6 +6,7 @@
 body {
     width: var(--body-width);
     /* height: var(--body-height); */
+    height: 100vh;
     margin: 0 auto;
     background-color: aqua;
     /* border: 1px solid black; */
@@ -122,6 +123,7 @@ input {
 }
 
 .preview h4 {
+    margin-top: 6px;
     margin-bottom: 0px;
 }
 
