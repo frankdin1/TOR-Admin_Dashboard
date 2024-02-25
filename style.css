@@ -110,7 +110,9 @@ input {
 }
 
 .project-block {
-    width: 90%;
-    height: 80%;
+    width: 88%;
+    height: 70%;
     padding: 10px;
+    display: grid;
+    grid-template-rows: 70% 30%;
 }
