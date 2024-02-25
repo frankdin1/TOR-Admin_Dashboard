@@ -94,7 +94,7 @@ input {
 .title {
     position: absolute;
     margin-left: 10px;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-bottom: 1px;
 }
 
@@ -105,16 +105,16 @@ input {
     justify-items: center;
     align-items: center;
     height: 90%;
-    margin-top: 60px;
+    margin-top: 50px;
 
 }
 
 .project-block {
     width: 88%;
-    height: 70%;
+    height: 80%;
     padding: 10px;
     display: grid;
-    grid-template-rows: 70% 30%;
+    grid-template-rows: 65% 35%;
 }
 
 .project-text {
@@ -132,4 +132,21 @@ input {
 .news {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.announcements,
+.trending {
+    height: 85%;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+}
+
+.announcements {
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.trending {
+    grid-template-rows: repeat(4, 1fr);
 }
