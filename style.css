@@ -121,6 +121,10 @@ input {
     padding-left: 10px;
 }
 
+.project-text h4 {
+    margin-bottom: 0px;
+}
+
 .project-title {
     margin-bottom: -2px;
 }
@@ -149,4 +153,8 @@ input {
 
 .trending {
     grid-template-rows: repeat(4, 1fr);
+}
+
+hr.solid {
+    border-top: 1px solid gray;
 }
