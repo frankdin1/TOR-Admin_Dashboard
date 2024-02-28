@@ -121,11 +121,21 @@ input {
 .preview {
     padding-left: 10px;
     margin: 0 auto;
-    width: 70%;
 }
 
 .preview h4 {
-    margin-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.announcements-preview {
+    padding-left: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.announcements-preview h4 {
+    margin-top: 10px;
     margin-bottom: 0px;
 }
 
