@@ -164,6 +164,11 @@ input {
     margin-top: 20px;
 }
 
-hr.solid {
+hr.solid.one {
     border-top: 1px solid gray;
+    width: 12%;
+    height: 0px;
+    position: absolute;
+    justify-self: center;
+    top: 34.4%
 }
