@@ -135,7 +135,7 @@ input {
 
 .announcements,
 .trending {
-    height: 85%;
+    height: 80%;
     width: 80%;
     margin: 0 auto;
     display: grid;
@@ -143,10 +143,25 @@ input {
 
 .announcements {
     grid-template-rows: repeat(3, 1fr);
+    margin-top: 48px;
+}
+
+.announcements-title {
+    position: absolute;
+    padding-left: 28px;
+    margin-top: 35px;
+    margin-bottom: 712px;
 }
 
 .trending {
     grid-template-rows: repeat(4, 1fr);
+}
+
+.trending-title {
+    position: absolute;
+    padding-left: 28px;
+    top: 59%;
+    margin-top: 20px;
 }
 
 hr.solid {
